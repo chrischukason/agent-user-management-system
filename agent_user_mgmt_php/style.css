@@ -1,0 +1,99 @@
+/* ===== Global Styles ===== */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+}
+
+/* ===== Headings ===== */
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* ===== Button Styling ===== */
+
+.btn {
+    padding: 10px 15px;
+    background: #0080ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.btn:hover {
+    background: #005fcc;
+}
+
+/* ===== Table Styling ===== */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th {
+    background: #0080ff;
+    color: white;
+    padding: 10px;
+}
+
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.action-links a {
+    margin-right: 10px;
+    color: #0080ff;
+    text-decoration: none;
+}
+
+.action-links a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Forms ===== */
+
+form label {
+    font-weight: bold;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px 0;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #0080ff;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #005fcc;
+}
